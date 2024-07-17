@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="NavBar">
+        <div class="Logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>
+
+        <div class="NavBarRouters">
+            <ul class="ListRouters">
+                <li>
+                    Main
+                </li>
+                <li>
+                    Portfolio
+                </li>
+                <li>
+                    Services
+                </li>
+                <li>
+                    Contacts
+                </li>
+            </ul>       
+        </div>
+
+        <div class="Icon">
+            <img src="./img/icon.png" alt="">
+        </div>
+    </div>
+
+    <div class="Header">
+        <div class="Left-Header">
+            <h1 class="Title">
+                <p class="Title-Photo">Photo</p>
+                <p class="Title-Video">Video</p>
+            </h1>
+
+            <p class="Description">
+                Hi! My name is Christina Chekhov. I shoot photos all around the world. I travel and look for inspiration for my work in simple things. Join me.
+            </p>
+        </div>
+
+        <div class="Right-Header">
+            <img src="./img/image 5.png" alt="">
+            <img src="./img/image 6.png" alt="">
+            <img src="./img/avatar.png" alt="">
+        </div>
+
+        <div class="My_location">
+            <img src="./img/image 4.png" alt="">
+            <div class="My_location_Title">
+                <p class="Title_location">Estonia</p>
+                <p class="Title_text">my current location</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Main">
+        <h1>WHat I do</h1>
+        <hr>
+        <h2>photo shooting</h2>
+        <hr>
+        <div class="Section_1">
+            <div class="text-content">
+                <h3>video shooting</h3>
+                <p class="Description">When you’re creating a marketing video, the words you use have to work with the photos and videos you choose. That doesn’t just mean what the words are — it also means how you place them. Take a look at some tips for how to shoot text-friendly photos and video clips for marketing videos, and how to make the ones you already have work better in your video.</p>
+            </div>
+            <img src="./img/image 7.png" alt="Video Shooting">
+        </div>
+    
+    </div>
+
+    <div class="My_works">
+        <h1>My works</h1>
+        <div class="Imges">
+            <img src="./img/image 12.png" alt="в2">
+            <img src="./img/image 12.png" alt="1в23">
+            <img src="./img/image 12.png" alt="вв">
+            <img src="./img/image 12.png" alt="вв">
+            <img src="./img/image 12.png" alt="вв">
+
+
+        </div>
+    </div>
+
+    <script>
+        particlesJS('particles-js',
+            {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#808080"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#808080"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            }
+        );
+    </script>
+
+</body>
+</html>

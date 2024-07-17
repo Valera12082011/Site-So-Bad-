@@ -1,0 +1,250 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(249, 249, 249);
+}
+
+
+.NavBar {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    vertical-align: auto;
+}
+
+.ListRouters {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -999999;
+}
+
+
+.ListRouters li {
+    margin-left: 40px;
+}
+
+.Logo {
+   position: relative;
+   left: -200px;
+}
+
+.Icon img {
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.ListRouters li:hover {
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: rgb(70, 70, 70);
+    border-bottom: 1px grey solid;
+}
+
+.Header {
+    display: flex;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Header img {
+    object-fit: cover; /* щоб зображення заповнювали квадрат */
+}
+
+.Title {
+    display: flex;
+    position: absolute;
+    margin-top: 170px;
+}
+
+.Title-Video {
+    color: grey;
+    margin-left: 20px;
+}
+
+.Left-Header {
+    width: 300px;
+    margin-right: 100px;
+    margin-top: -220px;
+}
+
+.Title {
+    position: absolute;
+    top: -150px;
+}
+
+.Right-Header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* відстань між картинками */
+    justify-content: center;
+}
+
+
+.Right-Header img {
+    border-radius: 0.5pc;
+}
+
+.Right-Header img:hover {
+    filter: blur(2px);
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Right-Header img:not(:hover) {
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Header {
+    position: relative;
+    display: flex;
+    align-items: center; /* Вирівнювання по вертикалі */
+    justify-content: space-between; /* Розподіл простору між елементами */
+    padding: 20px;
+}
+
+.Right-Header {
+    display: flex;
+    gap: 10px; /* Відстань між картинками */
+}
+
+.Title-Photo,
+.Title-Video {
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+}
+
+.Title-Video {
+    margin-left: 35px;
+}
+
+
+.Description {
+    font-size: 24px;
+    width: 300px;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.My_location {  
+    position: absolute;
+    display: flex;
+    bottom: -40px;
+    right: 83.2%;
+    width: 250px;
+}
+
+.My_location_Title {
+    margin-left: 12px;
+}
+
+.Section_1 h3 {
+    margin-bottom: -110px;
+}
+
+
+.Title_location {
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.Title_text {
+    margin-top: -20px;
+}
+
+.Section_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Section_1 h3 {
+    margin: 0 0 10px 0; /* Відступи для заголовка */
+    color: #BB5337;
+    font-size: 28px;
+}
+
+.Section_1 p {
+    margin: 0;
+}
+
+.Section_1 img {
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-content {
+    max-width: 55%; /* Максимальна ширина текстового блоку */
+}
+
+.Main {
+    padding: 20px;
+}
+
+.text-content p{
+    font-size: larger;
+}
+.Main p {
+    font-size: large;
+}
+
+
+
+
+
+.My_works {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    margin-left: calc(100% / 4);
+}
+
+.My_works h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.Imges {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 10px;
+}
+
+.Imges img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.Imges img:hover {
+    transform: scale(1.05);
+}
